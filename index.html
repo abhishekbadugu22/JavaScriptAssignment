@@ -161,7 +161,8 @@
 
 								<ul>
 									<li>
-										<select name="month" class="select month">
+										<select name="month" class="select month" id="month">
+											<option value="month">Month</option>
 											<option value="jan">Jan</option>
 											<option value="feb">Feb</option>
 											<option value="march">March</option>
@@ -177,7 +178,8 @@
 										</select>
 									</li>
 									<li>
-										<select name="day" class="select day">
+										<select name="day" class="select day" id="day">
+											<option value="day">Day</option>
 											<option value="1">01</option>
 											<option value="2">02</option>
 											<option value="3">03</option>
@@ -215,8 +217,16 @@
 									</li>
 
 									<li>
-										<select name="year" class="select year">
-											<option value="volvo">Year</option>
+										<select name="year" class="select year" id="year">
+											<option value="year">Year</option>
+											<option value="2002">2002</option>
+											<option value="2001">2001</option>
+											<option value="2000">2000</option>
+											<option value="1999">1999</option>
+											<option value="1998">1998</option>
+											<option value="1997">1997</option>
+											<option value="1996">1996</option>
+											<option value="1995">1995</option>
 										</select>
 									</li>
 								</ul>
@@ -225,7 +235,7 @@
 					<li class="fileds">
 						<div class="age_fileds">
 							<label>Age</label>
-							<input name="age" type="text" disabled/> 
+							<input name="age" type="text" id="age" disabled/> 
 						</div>
 						<div class="gender_fileds">
 							<label>Gender</label>
@@ -246,7 +256,7 @@
 						</div>
 						<div class="about_you_fileds">
 						<label>About you</label>
-						<textarea></textarea>
+						<textarea id="txtArea"></textarea>
 						</div>						
 					</li>
 				</ul>

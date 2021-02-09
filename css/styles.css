@@ -1,6 +1,10 @@
 
 
 .success input {
-    border: 2px solid
-    green !important; 
+    border: 2px solid green !important; 
 }
+
+.error input {
+    border: 2px solid #E32636 !important; 
+}
+
